@@ -18,5 +18,10 @@ namespace ClinicSystem.DoctorMain
             InitializeComponent();
             this.mainForm = mainForm;
         }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
