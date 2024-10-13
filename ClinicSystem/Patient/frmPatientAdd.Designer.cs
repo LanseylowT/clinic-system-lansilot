@@ -88,10 +88,6 @@
             this.lblDiagnosis = new Bunifu.UI.WinForms.BunifuLabel();
             this.txtDiagnosis = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.bunifuDatePicker1 = new Bunifu.UI.WinForms.BunifuDatePicker();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuDatePicker2 = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,7 +97,7 @@
             this.bunifuLabel1.AutoEllipsis = false;
             this.bunifuLabel1.CursorType = null;
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel1.Location = new System.Drawing.Point(524, 180);
+            this.bunifuLabel1.Location = new System.Drawing.Point(514, 228);
             this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -140,7 +136,7 @@
             this.txtMobileNo.IconRight = null;
             this.txtMobileNo.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMobileNo.Lines = new string[0];
-            this.txtMobileNo.Location = new System.Drawing.Point(524, 201);
+            this.txtMobileNo.Location = new System.Drawing.Point(514, 249);
             this.txtMobileNo.Margin = new System.Windows.Forms.Padding(2);
             this.txtMobileNo.MaxLength = 32767;
             this.txtMobileNo.MinimumSize = new System.Drawing.Size(1, 1);
@@ -193,7 +189,7 @@
             this.btnAdd.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(524, 761);
+            this.btnAdd.Location = new System.Drawing.Point(512, 740);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(262, 37);
@@ -220,7 +216,7 @@
             this.dtBirthdate.IconColor = System.Drawing.Color.Gray;
             this.dtBirthdate.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
             this.dtBirthdate.LeftTextMargin = 5;
-            this.dtBirthdate.Location = new System.Drawing.Point(522, 290);
+            this.dtBirthdate.Location = new System.Drawing.Point(512, 338);
             this.dtBirthdate.Margin = new System.Windows.Forms.Padding(2);
             this.dtBirthdate.MinimumSize = new System.Drawing.Size(4, 32);
             this.dtBirthdate.Name = "dtBirthdate";
@@ -234,7 +230,7 @@
             this.gender2.CursorType = null;
             this.gender2.Enabled = false;
             this.gender2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gender2.Location = new System.Drawing.Point(312, 292);
+            this.gender2.Location = new System.Drawing.Point(302, 340);
             this.gender2.Margin = new System.Windows.Forms.Padding(2);
             this.gender2.Name = "gender2";
             this.gender2.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -251,7 +247,7 @@
             this.gender1.CursorType = null;
             this.gender1.Enabled = false;
             this.gender1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gender1.Location = new System.Drawing.Point(252, 292);
+            this.gender1.Location = new System.Drawing.Point(242, 340);
             this.gender1.Margin = new System.Windows.Forms.Padding(2);
             this.gender1.Name = "gender1";
             this.gender1.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -267,7 +263,7 @@
             this.rdoGender2.CheckedState.BorderThickness = 0;
             this.rdoGender2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
             this.rdoGender2.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rdoGender2.Location = new System.Drawing.Point(289, 290);
+            this.rdoGender2.Location = new System.Drawing.Point(279, 338);
             this.rdoGender2.Margin = new System.Windows.Forms.Padding(2);
             this.rdoGender2.Name = "rdoGender2";
             this.rdoGender2.Size = new System.Drawing.Size(16, 18);
@@ -283,7 +279,7 @@
             this.rdoGender1.CheckedState.BorderThickness = 0;
             this.rdoGender1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
             this.rdoGender1.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rdoGender1.Location = new System.Drawing.Point(229, 290);
+            this.rdoGender1.Location = new System.Drawing.Point(219, 338);
             this.rdoGender1.Margin = new System.Windows.Forms.Padding(2);
             this.rdoGender1.Name = "rdoGender1";
             this.rdoGender1.Size = new System.Drawing.Size(16, 18);
@@ -299,7 +295,7 @@
             this.lblMaritalStatus.AutoEllipsis = false;
             this.lblMaritalStatus.CursorType = null;
             this.lblMaritalStatus.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblMaritalStatus.Location = new System.Drawing.Point(522, 348);
+            this.lblMaritalStatus.Location = new System.Drawing.Point(512, 396);
             this.lblMaritalStatus.Margin = new System.Windows.Forms.Padding(2);
             this.lblMaritalStatus.Name = "lblMaritalStatus";
             this.lblMaritalStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -315,7 +311,7 @@
             this.lblEmergencyNo.AutoEllipsis = false;
             this.lblEmergencyNo.CursorType = null;
             this.lblEmergencyNo.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblEmergencyNo.Location = new System.Drawing.Point(228, 348);
+            this.lblEmergencyNo.Location = new System.Drawing.Point(218, 396);
             this.lblEmergencyNo.Margin = new System.Windows.Forms.Padding(2);
             this.lblEmergencyNo.Name = "lblEmergencyNo";
             this.lblEmergencyNo.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -331,7 +327,7 @@
             this.bunifuLabel13.AutoEllipsis = false;
             this.bunifuLabel13.CursorType = null;
             this.bunifuLabel13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel13.Location = new System.Drawing.Point(228, 259);
+            this.bunifuLabel13.Location = new System.Drawing.Point(218, 307);
             this.bunifuLabel13.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel13.Name = "bunifuLabel13";
             this.bunifuLabel13.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -347,7 +343,7 @@
             this.bunifuLabel12.AutoEllipsis = false;
             this.bunifuLabel12.CursorType = null;
             this.bunifuLabel12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel12.Location = new System.Drawing.Point(524, 259);
+            this.bunifuLabel12.Location = new System.Drawing.Point(514, 307);
             this.bunifuLabel12.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel12.Name = "bunifuLabel12";
             this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -363,7 +359,7 @@
             this.bunifuLabel8.AutoEllipsis = false;
             this.bunifuLabel8.CursorType = null;
             this.bunifuLabel8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel8.Location = new System.Drawing.Point(228, 180);
+            this.bunifuLabel8.Location = new System.Drawing.Point(218, 228);
             this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel8.Name = "bunifuLabel8";
             this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -379,7 +375,7 @@
             this.bunifuLabel7.AutoEllipsis = false;
             this.bunifuLabel7.CursorType = null;
             this.bunifuLabel7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel7.Location = new System.Drawing.Point(524, 105);
+            this.bunifuLabel7.Location = new System.Drawing.Point(514, 153);
             this.bunifuLabel7.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel7.Name = "bunifuLabel7";
             this.bunifuLabel7.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -395,7 +391,7 @@
             this.bunifuLabel6.AutoEllipsis = false;
             this.bunifuLabel6.CursorType = null;
             this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel6.Location = new System.Drawing.Point(228, 105);
+            this.bunifuLabel6.Location = new System.Drawing.Point(218, 153);
             this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuLabel6.Name = "bunifuLabel6";
             this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -434,7 +430,7 @@
             this.txtMarital.IconRight = null;
             this.txtMarital.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtMarital.Lines = new string[0];
-            this.txtMarital.Location = new System.Drawing.Point(522, 369);
+            this.txtMarital.Location = new System.Drawing.Point(512, 417);
             this.txtMarital.Margin = new System.Windows.Forms.Padding(2);
             this.txtMarital.MaxLength = 32767;
             this.txtMarital.MinimumSize = new System.Drawing.Size(1, 1);
@@ -511,7 +507,7 @@
             this.txtEmergency.IconRight = null;
             this.txtEmergency.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmergency.Lines = new string[0];
-            this.txtEmergency.Location = new System.Drawing.Point(228, 369);
+            this.txtEmergency.Location = new System.Drawing.Point(218, 417);
             this.txtEmergency.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmergency.MaxLength = 32767;
             this.txtEmergency.MinimumSize = new System.Drawing.Size(1, 1);
@@ -588,7 +584,7 @@
             this.txtEmail.IconRight = null;
             this.txtEmail.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtEmail.Lines = new string[0];
-            this.txtEmail.Location = new System.Drawing.Point(228, 201);
+            this.txtEmail.Location = new System.Drawing.Point(218, 249);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmail.MaxLength = 32767;
             this.txtEmail.MinimumSize = new System.Drawing.Size(1, 1);
@@ -665,7 +661,7 @@
             this.txtLastName.IconRight = null;
             this.txtLastName.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLastName.Lines = new string[0];
-            this.txtLastName.Location = new System.Drawing.Point(524, 126);
+            this.txtLastName.Location = new System.Drawing.Point(514, 174);
             this.txtLastName.Margin = new System.Windows.Forms.Padding(2);
             this.txtLastName.MaxLength = 32767;
             this.txtLastName.MinimumSize = new System.Drawing.Size(1, 1);
@@ -742,7 +738,7 @@
             this.txtFirstName.IconRight = null;
             this.txtFirstName.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtFirstName.Lines = new string[0];
-            this.txtFirstName.Location = new System.Drawing.Point(228, 126);
+            this.txtFirstName.Location = new System.Drawing.Point(218, 174);
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(2);
             this.txtFirstName.MaxLength = 32767;
             this.txtFirstName.MinimumSize = new System.Drawing.Size(1, 1);
@@ -829,7 +825,7 @@
             this.btnCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(227, 761);
+            this.btnCancel.Location = new System.Drawing.Point(215, 740);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(262, 37);
@@ -843,7 +839,7 @@
             this.lblComment.AutoEllipsis = false;
             this.lblComment.CursorType = null;
             this.lblComment.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblComment.Location = new System.Drawing.Point(228, 541);
+            this.lblComment.Location = new System.Drawing.Point(218, 589);
             this.lblComment.Margin = new System.Windows.Forms.Padding(2);
             this.lblComment.Name = "lblComment";
             this.lblComment.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -859,7 +855,7 @@
             this.lblDiagnosis.AutoEllipsis = false;
             this.lblDiagnosis.CursorType = null;
             this.lblDiagnosis.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lblDiagnosis.Location = new System.Drawing.Point(227, 413);
+            this.lblDiagnosis.Location = new System.Drawing.Point(217, 461);
             this.lblDiagnosis.Margin = new System.Windows.Forms.Padding(2);
             this.lblDiagnosis.Name = "lblDiagnosis";
             this.lblDiagnosis.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -898,7 +894,7 @@
             this.txtDiagnosis.IconRight = null;
             this.txtDiagnosis.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtDiagnosis.Lines = new string[0];
-            this.txtDiagnosis.Location = new System.Drawing.Point(227, 434);
+            this.txtDiagnosis.Location = new System.Drawing.Point(217, 482);
             this.txtDiagnosis.Margin = new System.Windows.Forms.Padding(2);
             this.txtDiagnosis.MaxLength = 32767;
             this.txtDiagnosis.MinimumSize = new System.Drawing.Size(1, 1);
@@ -975,7 +971,7 @@
             this.bunifuTextBox1.IconRight = null;
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
-            this.bunifuTextBox1.Location = new System.Drawing.Point(225, 560);
+            this.bunifuTextBox1.Location = new System.Drawing.Point(215, 608);
             this.bunifuTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.bunifuTextBox1.MaxLength = 32767;
             this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
@@ -1023,100 +1019,12 @@
             this.bunifuTextBox1.UseSystemPasswordChar = false;
             this.bunifuTextBox1.WordWrap = true;
             // 
-            // bunifuDatePicker1
-            // 
-            this.bunifuDatePicker1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker1.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker1.BorderRadius = 1;
-            this.bunifuDatePicker1.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker1.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker1.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker1.DisplayWeekNumbers = false;
-            this.bunifuDatePicker1.DPHeight = 0;
-            this.bunifuDatePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.bunifuDatePicker1.FillDatePicker = false;
-            this.bunifuDatePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker1.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker1.Icon")));
-            this.bunifuDatePicker1.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker1.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker1.LeftTextMargin = 5;
-            this.bunifuDatePicker1.Location = new System.Drawing.Point(225, 695);
-            this.bunifuDatePicker1.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuDatePicker1.MinimumSize = new System.Drawing.Size(4, 32);
-            this.bunifuDatePicker1.Name = "bunifuDatePicker1";
-            this.bunifuDatePicker1.Size = new System.Drawing.Size(264, 32);
-            this.bunifuDatePicker1.TabIndex = 142;
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel2.Location = new System.Drawing.Point(227, 670);
-            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(24, 15);
-            this.bunifuLabel2.TabIndex = 143;
-            this.bunifuLabel2.Text = "Date";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel3
-            // 
-            this.bunifuLabel3.AllowParentOverrides = false;
-            this.bunifuLabel3.AutoEllipsis = false;
-            this.bunifuLabel3.CursorType = null;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel3.Location = new System.Drawing.Point(524, 670);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuLabel3.Name = "bunifuLabel3";
-            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(98, 15);
-            this.bunifuLabel3.TabIndex = 143;
-            this.bunifuLabel3.Text = "Appointment Date";
-            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuDatePicker2
-            // 
-            this.bunifuDatePicker2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuDatePicker2.BorderColor = System.Drawing.Color.Silver;
-            this.bunifuDatePicker2.BorderRadius = 1;
-            this.bunifuDatePicker2.Color = System.Drawing.Color.Silver;
-            this.bunifuDatePicker2.DateBorderThickness = Bunifu.UI.WinForms.BunifuDatePicker.BorderThickness.Thin;
-            this.bunifuDatePicker2.DateTextAlign = Bunifu.UI.WinForms.BunifuDatePicker.TextAlign.Left;
-            this.bunifuDatePicker2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker2.DisplayWeekNumbers = false;
-            this.bunifuDatePicker2.DPHeight = 0;
-            this.bunifuDatePicker2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.bunifuDatePicker2.FillDatePicker = false;
-            this.bunifuDatePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuDatePicker2.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDatePicker2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuDatePicker2.Icon")));
-            this.bunifuDatePicker2.IconColor = System.Drawing.Color.Gray;
-            this.bunifuDatePicker2.IconLocation = Bunifu.UI.WinForms.BunifuDatePicker.Indicator.Right;
-            this.bunifuDatePicker2.LeftTextMargin = 5;
-            this.bunifuDatePicker2.Location = new System.Drawing.Point(522, 695);
-            this.bunifuDatePicker2.Margin = new System.Windows.Forms.Padding(2);
-            this.bunifuDatePicker2.MinimumSize = new System.Drawing.Size(4, 32);
-            this.bunifuDatePicker2.Name = "bunifuDatePicker2";
-            this.bunifuDatePicker2.Size = new System.Drawing.Size(264, 32);
-            this.bunifuDatePicker2.TabIndex = 142;
-            // 
             // frmPatientAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1006, 829);
-            this.Controls.Add(this.bunifuDatePicker2);
-            this.Controls.Add(this.bunifuLabel3);
-            this.Controls.Add(this.bunifuDatePicker1);
-            this.Controls.Add(this.bunifuLabel2);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.lblComment);
@@ -1182,9 +1090,5 @@
         private Bunifu.UI.WinForms.BunifuLabel lblDiagnosis;
         private Bunifu.UI.WinForms.BunifuTextBox txtDiagnosis;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
-        private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private Bunifu.UI.WinForms.BunifuDatePicker bunifuDatePicker2;
     }
 }

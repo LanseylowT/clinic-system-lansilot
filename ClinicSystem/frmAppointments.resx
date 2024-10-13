@@ -207,29 +207,25 @@
   <metadata name="dataGridViewTextBoxColumn25.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="guna2GroupBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="bunifuLabel4.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
-  </data>
-  <data name="bunifuLabel2.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
-  </data>
-  <data name="bunifuLabel3.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
-  </data>
-  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Segoe UI'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 0, 0); text-align: left; }</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BtnSearchAppointment.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAQQAAAAnCAYAAADpRzYmAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVHhe7dRRCQMxAETB+FeVIzIqowJaAuHBacgM7M8K
-        eAPgZa31mXP+zOzO7QacHIyxD+BeuwEnB4IAtxMEIIIARBCACAIQQQAiCEAEAYggABEEIIIARBCACAIQ
-        QQAiCEAEAYggABEEIIIARBCACAIQQQAiCEAEAYggABEEIIIARBCACAIQQQAiCEAEAYggABEEIK8gPM/z
-        3YeZ3bndgJMDgG2MPyiB6n34dP1xAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAVMAAAAnCAYAAACyj6sXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM2SURBVHhe7d2/axNhHMfxGzs6dnR0dOzo2ElcBEdH8S9w
+        dHAQ3Bwc3Jz9B5xsc3fJNaH0B4VahKSEEiIm4YwlxhjK+f2kXykxaXrBoNi8X/AdwiWX7cP3eZ57ngsA
+        AP/AxsbGmtXTYrGYWO1GUdTa3NzMKIqi/tdSjinPVMo3q3WPvMWyG9+wP3kdhmG3Uqmkx8fHWafTydI0
+        zfr9fgYA/zPlmPJMpXzb2dlJC4XCMI7jt5Z/Nz0K/4wl9nO7YVqv14eDwcD/GgCut7Ozs6zZbGalUilV
+        M2mhuuKxOB/vRsvVarU/HA799gCwXBSqaiYtDz9aLq56ROajtjZJkg/tdptWFADM6emputSm5eNtj8rZ
+        1JEqSPVDAMAFTXVaPn5Ww+mReTkN7elIAWC6Xq+nDrWmxtNjc5IF6ctarcbyPADM0Gw2f1igvvPoHGcp
+        uxrHcVeTrQCA2ba2tr5MnT/V0r9WrPx7AIAZWq1WZrn53iP0nKXrShiGX3kECgDyi6Kop1G9R+koTNf1
+        xL9fBwDkcHR0pDB95FE62uX06uTkxC8DAPKYGOrbh0R77QEA+ekxKWtGGx6lQRDHcY2H9AFgPlpnKhQK
+        3zxKg0AfWHwCgPnpCD+P0iDQBwDA/AhTAFgAwhQAFoAwBYAFIEwBYAHGwlTvOuGAEwCY31iY6qFTPXwK
+        AMhPTaiaUY/S0Q6oXb2VDwCQn95qas1oy6N0tAPqTaPR8MsAgDy0DV/b8T1KR6dGPTw8PGQ/KQDMoVar
+        DW2Y/8yj9PwlemEYfvfrAIAcpp62r2OkdJwUAOBqOhxKh0R5hF5Quipl/XsAgBn29/fVld7zCB1HdwoA
+        V7u0K/3FUnY1SZK6lvsBAJN0XGm5XP5keXnLo3M6H+632REFAJP29vY6URTd98iczdrXuwrUwWDgPweA
+        5aaOVEFaLBYfe1Tmow61VCo12RkFYNlpjlRD+9wd6e80h6qtptvb2ynviAKwbLR+dHBw0NVi05VzpHnY
+        Te7oZtapdqvV6lDdKnOqAK4j5Vu9Xs8qlUqqffeWfw88ChdHyWz1RN2qTkrR0VMURVHXqZRvYRi+sKxb
+        8+gDAPwdQfATpb4YQDNnyo8AAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="dataGridViewTextBoxColumn26.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -238,54 +234,28 @@
   <metadata name="dataGridViewTextBoxColumn27.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="LastName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="dataGridViewTextBoxColumn28.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="dataGridViewTextBoxColumn29.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="AppointmentType.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="emails.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="AppointmentDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="date.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="dataGridViewTextBoxColumn30.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="bunifuPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAA94AAABkCAYAAABw1OilAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALJSURBVHhe7dkhbgJRGEbRkV1GJbIGJihkM7SCJVR2Gey8
-        HdInKlDARZ0vOer9G7h5k5mZmZmZmZk9Y/P76zR/nAEAAIA77T83o7bHtse39eEHAAAAeJDdchrVve6v
-        yK8fAgAAALc4j+peJ7wBAADg0YQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAA
-        hIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhIQ3AAAAhP6F9245XTkAAAAAbrVdvkd1j83Hr/Xh8vMNAAAA
-        3OMS3YfDyyhuMzMzMzMzM2s2Tb+WFrZwRKEhMQAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="lblEditDetails.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Segoe UI'; font-size: 20.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 255, 255); text-align: center; }</value>
   </data>
-  <data name="bunifuCheckBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEWSURBVDhP7ZShDsIwEIYnkUgEUCQSiUQieQTkJBI5h+xG
-        SJBIHgGJ5BGQSCQSd8fddrQbLYNVoPiTP0vW/77cbm2jn0utcdjTOCcnFacQqwzGEvsstcNWP4MVFd77
-        KeJHZ7BXG+xIuSulcUSwsy0oFZf98p5qbl2NM8FYcYe0ePEV1Vqy/GXU1EBwhegztk5BY8NBcKbL72b4
-        ztKx6ZZn6YQCbWbb07DwBULMW06gmPgCIf5DBZri0hcIsYF2M5j6Ao1sT1acQ2mftssLQbabf5RDWXTE
-        jk6wofnuEFyh/O58HtXGHQPwk8coOCueRyVcB+e1yjpowbjiG53gpwqgxpS9ejv0SeAxbxGvaRvST5lI
-        vKQoegDoo4R9UUMEPwAAAABJRU5ErkJggg==
-</value>
+  <data name="lblPatientDetail.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Segoe UI'; font-size: 20.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(255, 255, 255); text-align: center; }</value>
+  </data>
+  <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
+    <value>#bunifu-label { padding: 0px; margin: auto; padding-top: 0px;font-family: 'Segoe UI'; font-size: 20.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); text-align: center; }</value>
   </data>
 </root>

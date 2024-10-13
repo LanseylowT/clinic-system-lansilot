@@ -66,36 +66,24 @@
             this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuRadioButton4 = new Bunifu.UI.WinForms.BunifuRadioButton();
-            this.bunifuRadioButton2 = new Bunifu.UI.WinForms.BunifuRadioButton();
-            this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuRadioButton3 = new Bunifu.UI.WinForms.BunifuRadioButton();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuRadioButton1 = new Bunifu.UI.WinForms.BunifuRadioButton();
-            this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.btnDeleteDoctor = new Guna.UI2.WinForms.Guna2Button();
-            this.btnEditDoctor = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAddDoctor = new Guna.UI2.WinForms.Guna2Button();
-            this.grdDoctors = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.btnCancel = new Guna.UI2.WinForms.Guna2Button();
-            this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.BtnSearchAppointment = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.grdAppointment = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.btnBack = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnApprove = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnPending = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCancelled = new Guna.UI2.WinForms.Guna2Button();
             this.lblEditDetails = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuCheckBox1 = new Bunifu.UI.WinForms.BunifuCheckBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lblPatientDetail = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.btnAddAppointment = new Guna.UI2.WinForms.Guna2Button();
             this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AppointmentType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AppointmentDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emails = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2GroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdDoctors)).BeginInit();
-            this.bunifuPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).BeginInit();
             this.SuspendLayout();
             // 
             // id
@@ -272,360 +260,207 @@
             this.dataGridViewTextBoxColumn25.HeaderText = "Status";
             this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
             // 
-            // guna2GroupBox1
+            // BtnSearchAppointment
             // 
-            this.guna2GroupBox1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.guna2GroupBox1.Controls.Add(this.bunifuLabel4);
-            this.guna2GroupBox1.Controls.Add(this.bunifuLabel2);
-            this.guna2GroupBox1.Controls.Add(this.bunifuRadioButton4);
-            this.guna2GroupBox1.Controls.Add(this.bunifuRadioButton2);
-            this.guna2GroupBox1.Controls.Add(this.bunifuLabel3);
-            this.guna2GroupBox1.Controls.Add(this.bunifuRadioButton3);
-            this.guna2GroupBox1.Controls.Add(this.bunifuLabel1);
-            this.guna2GroupBox1.Controls.Add(this.bunifuRadioButton1);
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(63, 117);
-            this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(238, 105);
-            this.guna2GroupBox1.TabIndex = 125;
-            this.guna2GroupBox1.Text = "Appointment Status";
-            // 
-            // bunifuLabel4
-            // 
-            this.bunifuLabel4.AllowParentOverrides = false;
-            this.bunifuLabel4.AutoEllipsis = false;
-            this.bunifuLabel4.CursorType = null;
-            this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel4.Location = new System.Drawing.Point(151, 78);
-            this.bunifuLabel4.Name = "bunifuLabel4";
-            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(59, 15);
-            this.bunifuLabel4.TabIndex = 116;
-            this.bunifuLabel4.Text = "Completed";
-            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel2.Location = new System.Drawing.Point(42, 78);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(52, 15);
-            this.bunifuLabel2.TabIndex = 116;
-            this.bunifuLabel2.Text = "Approved";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuRadioButton4
-            // 
-            this.bunifuRadioButton4.AllowBindingControlLocation = false;
-            this.bunifuRadioButton4.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRadioButton4.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.bunifuRadioButton4.BorderThickness = 1;
-            this.bunifuRadioButton4.Checked = false;
-            this.bunifuRadioButton4.Location = new System.Drawing.Point(123, 76);
-            this.bunifuRadioButton4.Name = "bunifuRadioButton4";
-            this.bunifuRadioButton4.OutlineColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton4.OutlineColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton4.OutlineColorUnchecked = System.Drawing.Color.DarkGray;
-            this.bunifuRadioButton4.RadioColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton4.RadioColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton4.Size = new System.Drawing.Size(21, 21);
-            this.bunifuRadioButton4.TabIndex = 115;
-            this.bunifuRadioButton4.Text = null;
-            // 
-            // bunifuRadioButton2
-            // 
-            this.bunifuRadioButton2.AllowBindingControlLocation = false;
-            this.bunifuRadioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRadioButton2.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.bunifuRadioButton2.BorderThickness = 1;
-            this.bunifuRadioButton2.Checked = false;
-            this.bunifuRadioButton2.Location = new System.Drawing.Point(14, 76);
-            this.bunifuRadioButton2.Name = "bunifuRadioButton2";
-            this.bunifuRadioButton2.OutlineColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton2.OutlineColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton2.OutlineColorUnchecked = System.Drawing.Color.DarkGray;
-            this.bunifuRadioButton2.RadioColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton2.RadioColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton2.Size = new System.Drawing.Size(21, 21);
-            this.bunifuRadioButton2.TabIndex = 115;
-            this.bunifuRadioButton2.Text = null;
-            // 
-            // bunifuLabel3
-            // 
-            this.bunifuLabel3.AllowParentOverrides = false;
-            this.bunifuLabel3.AutoEllipsis = false;
-            this.bunifuLabel3.CursorType = null;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel3.Location = new System.Drawing.Point(151, 47);
-            this.bunifuLabel3.Name = "bunifuLabel3";
-            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(49, 15);
-            this.bunifuLabel3.TabIndex = 116;
-            this.bunifuLabel3.Text = "Canceled";
-            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuRadioButton3
-            // 
-            this.bunifuRadioButton3.AllowBindingControlLocation = false;
-            this.bunifuRadioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRadioButton3.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.bunifuRadioButton3.BorderThickness = 1;
-            this.bunifuRadioButton3.Checked = false;
-            this.bunifuRadioButton3.Location = new System.Drawing.Point(123, 45);
-            this.bunifuRadioButton3.Name = "bunifuRadioButton3";
-            this.bunifuRadioButton3.OutlineColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton3.OutlineColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton3.OutlineColorUnchecked = System.Drawing.Color.DarkGray;
-            this.bunifuRadioButton3.RadioColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton3.RadioColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton3.Size = new System.Drawing.Size(21, 21);
-            this.bunifuRadioButton3.TabIndex = 115;
-            this.bunifuRadioButton3.Text = null;
-            // 
-            // bunifuLabel1
-            // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bunifuLabel1.Location = new System.Drawing.Point(42, 47);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(44, 15);
-            this.bunifuLabel1.TabIndex = 116;
-            this.bunifuLabel1.Text = "Pending";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuRadioButton1
-            // 
-            this.bunifuRadioButton1.AllowBindingControlLocation = false;
-            this.bunifuRadioButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuRadioButton1.BindingControlPosition = Bunifu.UI.WinForms.BunifuRadioButton.BindingControlPositions.Right;
-            this.bunifuRadioButton1.BorderThickness = 1;
-            this.bunifuRadioButton1.Checked = true;
-            this.bunifuRadioButton1.Location = new System.Drawing.Point(14, 45);
-            this.bunifuRadioButton1.Name = "bunifuRadioButton1";
-            this.bunifuRadioButton1.OutlineColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton1.OutlineColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton1.OutlineColorUnchecked = System.Drawing.Color.DarkGray;
-            this.bunifuRadioButton1.RadioColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuRadioButton1.RadioColorTabFocused = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
-            this.bunifuRadioButton1.Size = new System.Drawing.Size(21, 21);
-            this.bunifuRadioButton1.TabIndex = 115;
-            this.bunifuRadioButton1.Text = null;
-            // 
-            // bunifuTextBox1
-            // 
-            this.bunifuTextBox1.AcceptsReturn = false;
-            this.bunifuTextBox1.AcceptsTab = false;
-            this.bunifuTextBox1.AnimationSpeed = 200;
-            this.bunifuTextBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.bunifuTextBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.bunifuTextBox1.AutoSizeHeight = true;
-            this.bunifuTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTextBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox1.BackgroundImage")));
-            this.bunifuTextBox1.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.bunifuTextBox1.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuTextBox1.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuTextBox1.BorderColorIdle = System.Drawing.Color.Silver;
-            this.bunifuTextBox1.BorderRadius = 1;
-            this.bunifuTextBox1.BorderThickness = 1;
-            this.bunifuTextBox1.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
-            this.bunifuTextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.bunifuTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.bunifuTextBox1.DefaultText = "";
-            this.bunifuTextBox1.FillColor = System.Drawing.Color.White;
-            this.bunifuTextBox1.HideSelection = true;
-            this.bunifuTextBox1.IconLeft = null;
-            this.bunifuTextBox1.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.IconPadding = 10;
-            this.bunifuTextBox1.IconRight = null;
-            this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox1.Lines = new string[0];
-            this.bunifuTextBox1.Location = new System.Drawing.Point(684, 183);
-            this.bunifuTextBox1.MaxLength = 32767;
-            this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.bunifuTextBox1.Modified = false;
-            this.bunifuTextBox1.Multiline = false;
-            this.bunifuTextBox1.Name = "bunifuTextBox1";
+            this.BtnSearchAppointment.AcceptsReturn = false;
+            this.BtnSearchAppointment.AcceptsTab = false;
+            this.BtnSearchAppointment.AnimationSpeed = 200;
+            this.BtnSearchAppointment.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.BtnSearchAppointment.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.BtnSearchAppointment.AutoSizeHeight = true;
+            this.BtnSearchAppointment.BackColor = System.Drawing.Color.Transparent;
+            this.BtnSearchAppointment.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSearchAppointment.BackgroundImage")));
+            this.BtnSearchAppointment.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.BtnSearchAppointment.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.BtnSearchAppointment.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.BtnSearchAppointment.BorderColorIdle = System.Drawing.Color.Silver;
+            this.BtnSearchAppointment.BorderRadius = 30;
+            this.BtnSearchAppointment.BorderThickness = 1;
+            this.BtnSearchAppointment.CharacterCase = Bunifu.UI.WinForms.BunifuTextBox.CharacterCases.Normal;
+            this.BtnSearchAppointment.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.BtnSearchAppointment.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.BtnSearchAppointment.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.BtnSearchAppointment.DefaultText = "";
+            this.BtnSearchAppointment.FillColor = System.Drawing.Color.White;
+            this.BtnSearchAppointment.HideSelection = true;
+            this.BtnSearchAppointment.IconLeft = null;
+            this.BtnSearchAppointment.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.BtnSearchAppointment.IconPadding = 10;
+            this.BtnSearchAppointment.IconRight = null;
+            this.BtnSearchAppointment.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.BtnSearchAppointment.Lines = new string[0];
+            this.BtnSearchAppointment.Location = new System.Drawing.Point(63, 129);
+            this.BtnSearchAppointment.MaxLength = 32767;
+            this.BtnSearchAppointment.MinimumSize = new System.Drawing.Size(1, 1);
+            this.BtnSearchAppointment.Modified = false;
+            this.BtnSearchAppointment.Multiline = false;
+            this.BtnSearchAppointment.Name = "BtnSearchAppointment";
             stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
             stateProperties1.FillColor = System.Drawing.Color.Empty;
             stateProperties1.ForeColor = System.Drawing.Color.Empty;
             stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties1;
+            this.BtnSearchAppointment.OnActiveState = stateProperties1;
             stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties2;
+            this.BtnSearchAppointment.OnDisabledState = stateProperties2;
             stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties3.FillColor = System.Drawing.Color.Empty;
             stateProperties3.ForeColor = System.Drawing.Color.Empty;
             stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties3;
+            this.BtnSearchAppointment.OnHoverState = stateProperties3;
             stateProperties4.BorderColor = System.Drawing.Color.Silver;
             stateProperties4.FillColor = System.Drawing.Color.White;
             stateProperties4.ForeColor = System.Drawing.Color.Empty;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties4;
-            this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
-            this.bunifuTextBox1.PasswordChar = '\0';
-            this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.bunifuTextBox1.PlaceholderText = "Search Patients";
-            this.bunifuTextBox1.ReadOnly = false;
-            this.bunifuTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.bunifuTextBox1.SelectedText = "";
-            this.bunifuTextBox1.SelectionLength = 0;
-            this.bunifuTextBox1.SelectionStart = 0;
-            this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(260, 39);
-            this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox1.TabIndex = 124;
-            this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuTextBox1.TextMarginBottom = 0;
-            this.bunifuTextBox1.TextMarginLeft = 3;
-            this.bunifuTextBox1.TextMarginTop = 1;
-            this.bunifuTextBox1.TextPlaceholder = "Search Patients";
-            this.bunifuTextBox1.UseSystemPasswordChar = false;
-            this.bunifuTextBox1.WordWrap = true;
+            this.BtnSearchAppointment.OnIdleState = stateProperties4;
+            this.BtnSearchAppointment.Padding = new System.Windows.Forms.Padding(3);
+            this.BtnSearchAppointment.PasswordChar = '\0';
+            this.BtnSearchAppointment.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.BtnSearchAppointment.PlaceholderText = "Search Appointments";
+            this.BtnSearchAppointment.ReadOnly = false;
+            this.BtnSearchAppointment.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.BtnSearchAppointment.SelectedText = "";
+            this.BtnSearchAppointment.SelectionLength = 0;
+            this.BtnSearchAppointment.SelectionStart = 0;
+            this.BtnSearchAppointment.ShortcutsEnabled = true;
+            this.BtnSearchAppointment.Size = new System.Drawing.Size(339, 39);
+            this.BtnSearchAppointment.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.BtnSearchAppointment.TabIndex = 124;
+            this.BtnSearchAppointment.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.BtnSearchAppointment.TextMarginBottom = 0;
+            this.BtnSearchAppointment.TextMarginLeft = 3;
+            this.BtnSearchAppointment.TextMarginTop = 1;
+            this.BtnSearchAppointment.TextPlaceholder = "Search Appointments";
+            this.BtnSearchAppointment.UseSystemPasswordChar = false;
+            this.BtnSearchAppointment.WordWrap = true;
             // 
-            // btnDeleteDoctor
-            // 
-            this.btnDeleteDoctor.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(22)))), ((int)(((byte)(86)))));
-            this.btnDeleteDoctor.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnDeleteDoctor.ForeColor = System.Drawing.Color.Black;
-            this.btnDeleteDoctor.Location = new System.Drawing.Point(832, 684);
-            this.btnDeleteDoctor.Margin = new System.Windows.Forms.Padding(2);
-            this.btnDeleteDoctor.Name = "btnDeleteDoctor";
-            this.btnDeleteDoctor.Size = new System.Drawing.Size(112, 37);
-            this.btnDeleteDoctor.TabIndex = 121;
-            this.btnDeleteDoctor.Text = "DELETE";
-            // 
-            // btnEditDoctor
-            // 
-            this.btnEditDoctor.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(184)))), ((int)(((byte)(169)))));
-            this.btnEditDoctor.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnEditDoctor.ForeColor = System.Drawing.Color.Black;
-            this.btnEditDoctor.Location = new System.Drawing.Point(705, 684);
-            this.btnEditDoctor.Margin = new System.Windows.Forms.Padding(2);
-            this.btnEditDoctor.Name = "btnEditDoctor";
-            this.btnEditDoctor.Size = new System.Drawing.Size(112, 37);
-            this.btnEditDoctor.TabIndex = 122;
-            this.btnEditDoctor.Text = "EDIT";
-            // 
-            // btnAddDoctor
-            // 
-            this.btnAddDoctor.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(184)))), ((int)(((byte)(169)))));
-            this.btnAddDoctor.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAddDoctor.ForeColor = System.Drawing.Color.Black;
-            this.btnAddDoctor.Location = new System.Drawing.Point(574, 684);
-            this.btnAddDoctor.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAddDoctor.Name = "btnAddDoctor";
-            this.btnAddDoctor.Size = new System.Drawing.Size(112, 37);
-            this.btnAddDoctor.TabIndex = 123;
-            this.btnAddDoctor.Text = "ADD";
-            // 
-            // grdDoctors
+            // grdAppointment
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.grdDoctors.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.grdAppointment.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdDoctors.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.grdDoctors.ColumnHeadersHeight = 52;
-            this.grdDoctors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdDoctors.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.grdAppointment.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.grdAppointment.ColumnHeadersHeight = 52;
+            this.grdAppointment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.grdAppointment.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn26,
             this.dataGridViewTextBoxColumn27,
-            this.LastName,
             this.dataGridViewTextBoxColumn28,
             this.dataGridViewTextBoxColumn29,
-            this.AppointmentType,
-            this.AppointmentDate,
+            this.emails,
+            this.date,
             this.dataGridViewTextBoxColumn30});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(184)))), ((int)(((byte)(169)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdDoctors.DefaultCellStyle = dataGridViewCellStyle3;
-            this.grdDoctors.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
-            this.grdDoctors.Location = new System.Drawing.Point(63, 227);
-            this.grdDoctors.Margin = new System.Windows.Forms.Padding(2);
-            this.grdDoctors.Name = "grdDoctors";
-            this.grdDoctors.RowHeadersVisible = false;
-            this.grdDoctors.RowHeadersWidth = 51;
-            this.grdDoctors.RowTemplate.Height = 24;
-            this.grdDoctors.Size = new System.Drawing.Size(881, 440);
-            this.grdDoctors.TabIndex = 120;
-            this.grdDoctors.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.White;
-            this.grdDoctors.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdDoctors.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.grdDoctors.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.grdDoctors.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.grdDoctors.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.grdDoctors.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.grdDoctors.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
-            this.grdDoctors.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
-            this.grdDoctors.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.grdDoctors.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.grdDoctors.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.grdDoctors.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdDoctors.ThemeStyle.HeaderStyle.Height = 52;
-            this.grdDoctors.ThemeStyle.ReadOnly = false;
-            this.grdDoctors.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
-            this.grdDoctors.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.grdDoctors.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.grdDoctors.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.grdDoctors.ThemeStyle.RowsStyle.Height = 24;
-            this.grdDoctors.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(184)))), ((int)(((byte)(169)))));
-            this.grdDoctors.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.grdAppointment.DefaultCellStyle = dataGridViewCellStyle3;
+            this.grdAppointment.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.grdAppointment.Location = new System.Drawing.Point(63, 227);
+            this.grdAppointment.Margin = new System.Windows.Forms.Padding(2);
+            this.grdAppointment.Name = "grdAppointment";
+            this.grdAppointment.RowHeadersVisible = false;
+            this.grdAppointment.RowHeadersWidth = 51;
+            this.grdAppointment.RowTemplate.Height = 24;
+            this.grdAppointment.Size = new System.Drawing.Size(881, 482);
+            this.grdAppointment.TabIndex = 120;
+            this.grdAppointment.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WhiteGrid;
+            this.grdAppointment.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.grdAppointment.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.grdAppointment.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.grdAppointment.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.grdAppointment.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.grdAppointment.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.grdAppointment.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.grdAppointment.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.White;
+            this.grdAppointment.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.grdAppointment.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.grdAppointment.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.Black;
+            this.grdAppointment.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.grdAppointment.ThemeStyle.HeaderStyle.Height = 52;
+            this.grdAppointment.ThemeStyle.ReadOnly = false;
+            this.grdAppointment.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.grdAppointment.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.grdAppointment.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.grdAppointment.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.grdAppointment.ThemeStyle.RowsStyle.Height = 24;
+            this.grdAppointment.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.grdAppointment.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
-            // btnCancel
+            // btnBack
             // 
-            this.btnCancel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
-            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(684, 742);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(262, 37);
-            this.btnCancel.TabIndex = 119;
-            this.btnCancel.Text = "Back";
+            this.btnBack.BorderRadius = 5;
+            this.btnBack.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
+            this.btnBack.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnBack.ForeColor = System.Drawing.Color.White;
+            this.btnBack.Location = new System.Drawing.Point(684, 742);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(262, 37);
+            this.btnBack.TabIndex = 119;
+            this.btnBack.Text = "Back";
             // 
-            // bunifuPanel1
+            // BtnApprove
             // 
-            this.bunifuPanel1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
-            this.bunifuPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuPanel1.BackgroundImage")));
-            this.bunifuPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuPanel1.BorderColor = System.Drawing.Color.Transparent;
-            this.bunifuPanel1.BorderRadius = 3;
-            this.bunifuPanel1.BorderThickness = 1;
-            this.bunifuPanel1.Controls.Add(this.lblEditDetails);
-            this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuPanel1.Name = "bunifuPanel1";
-            this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(990, 100);
-            this.bunifuPanel1.TabIndex = 118;
+            this.BtnApprove.BorderRadius = 15;
+            this.BtnApprove.BorderThickness = 1;
+            this.BtnApprove.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnApprove.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnApprove.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnApprove.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnApprove.FillColor = System.Drawing.Color.White;
+            this.BtnApprove.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnApprove.ForeColor = System.Drawing.Color.Black;
+            this.BtnApprove.Location = new System.Drawing.Point(63, 174);
+            this.BtnApprove.Name = "BtnApprove";
+            this.BtnApprove.Size = new System.Drawing.Size(109, 35);
+            this.BtnApprove.TabIndex = 128;
+            this.BtnApprove.Text = "Approved";
+            // 
+            // BtnPending
+            // 
+            this.BtnPending.BorderRadius = 15;
+            this.BtnPending.BorderThickness = 1;
+            this.BtnPending.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnPending.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnPending.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnPending.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnPending.FillColor = System.Drawing.Color.Black;
+            this.BtnPending.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnPending.ForeColor = System.Drawing.Color.White;
+            this.BtnPending.Location = new System.Drawing.Point(178, 174);
+            this.BtnPending.Name = "BtnPending";
+            this.BtnPending.Size = new System.Drawing.Size(109, 35);
+            this.BtnPending.TabIndex = 128;
+            this.BtnPending.Text = "Pending";
+            // 
+            // btnCancelled
+            // 
+            this.btnCancelled.BorderRadius = 15;
+            this.btnCancelled.BorderThickness = 1;
+            this.btnCancelled.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancelled.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCancelled.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCancelled.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCancelled.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCancelled.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCancelled.ForeColor = System.Drawing.Color.Black;
+            this.btnCancelled.Location = new System.Drawing.Point(293, 174);
+            this.btnCancelled.Name = "btnCancelled";
+            this.btnCancelled.Size = new System.Drawing.Size(109, 35);
+            this.btnCancelled.TabIndex = 128;
+            this.btnCancelled.Text = "Cancelled";
             // 
             // lblEditDetails
             // 
@@ -639,74 +474,60 @@
             this.lblEditDetails.Margin = new System.Windows.Forms.Padding(2);
             this.lblEditDetails.Name = "lblEditDetails";
             this.lblEditDetails.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblEditDetails.Size = new System.Drawing.Size(172, 37);
+            this.lblEditDetails.Size = new System.Drawing.Size(184, 37);
             this.lblEditDetails.TabIndex = 39;
-            this.lblEditDetails.Text = "Appointment";
+            this.lblEditDetails.Text = "Appointments";
             this.lblEditDetails.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblEditDetails.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // bunifuCheckBox1
+            // lblPatientDetail
             // 
-            this.bunifuCheckBox1.AllowBindingControlAnimation = true;
-            this.bunifuCheckBox1.AllowBindingControlColorChanges = false;
-            this.bunifuCheckBox1.AllowBindingControlLocation = true;
-            this.bunifuCheckBox1.AllowCheckBoxAnimation = false;
-            this.bunifuCheckBox1.AllowCheckmarkAnimation = true;
-            this.bunifuCheckBox1.AllowOnHoverStates = true;
-            this.bunifuCheckBox1.AutoCheck = true;
-            this.bunifuCheckBox1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCheckBox1.BackgroundImage")));
-            this.bunifuCheckBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bunifuCheckBox1.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
-            this.bunifuCheckBox1.BorderRadius = 12;
-            this.bunifuCheckBox1.Checked = true;
-            this.bunifuCheckBox1.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Checked;
-            this.bunifuCheckBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuCheckBox1.CustomCheckmarkImage = null;
-            this.bunifuCheckBox1.Location = new System.Drawing.Point(656, 191);
-            this.bunifuCheckBox1.MinimumSize = new System.Drawing.Size(17, 17);
-            this.bunifuCheckBox1.Name = "bunifuCheckBox1";
-            this.bunifuCheckBox1.OnCheck.BorderColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuCheckBox1.OnCheck.BorderRadius = 12;
-            this.bunifuCheckBox1.OnCheck.BorderThickness = 2;
-            this.bunifuCheckBox1.OnCheck.CheckBoxColor = System.Drawing.Color.DodgerBlue;
-            this.bunifuCheckBox1.OnCheck.CheckmarkColor = System.Drawing.Color.White;
-            this.bunifuCheckBox1.OnCheck.CheckmarkThickness = 2;
-            this.bunifuCheckBox1.OnDisable.BorderColor = System.Drawing.Color.LightGray;
-            this.bunifuCheckBox1.OnDisable.BorderRadius = 12;
-            this.bunifuCheckBox1.OnDisable.BorderThickness = 2;
-            this.bunifuCheckBox1.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox1.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
-            this.bunifuCheckBox1.OnDisable.CheckmarkThickness = 2;
-            this.bunifuCheckBox1.OnHoverChecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuCheckBox1.OnHoverChecked.BorderRadius = 12;
-            this.bunifuCheckBox1.OnHoverChecked.BorderThickness = 2;
-            this.bunifuCheckBox1.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuCheckBox1.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
-            this.bunifuCheckBox1.OnHoverChecked.CheckmarkThickness = 2;
-            this.bunifuCheckBox1.OnHoverUnchecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.bunifuCheckBox1.OnHoverUnchecked.BorderRadius = 12;
-            this.bunifuCheckBox1.OnHoverUnchecked.BorderThickness = 1;
-            this.bunifuCheckBox1.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox1.OnUncheck.BorderColor = System.Drawing.Color.DarkGray;
-            this.bunifuCheckBox1.OnUncheck.BorderRadius = 12;
-            this.bunifuCheckBox1.OnUncheck.BorderThickness = 1;
-            this.bunifuCheckBox1.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
-            this.bunifuCheckBox1.Size = new System.Drawing.Size(21, 21);
-            this.bunifuCheckBox1.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
-            this.bunifuCheckBox1.TabIndex = 126;
-            this.bunifuCheckBox1.ThreeState = false;
-            this.bunifuCheckBox1.ToolTipText = null;
+            this.lblPatientDetail.AllowParentOverrides = false;
+            this.lblPatientDetail.AutoEllipsis = false;
+            this.lblPatientDetail.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblPatientDetail.CursorType = System.Windows.Forms.Cursors.Default;
+            this.lblPatientDetail.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold);
+            this.lblPatientDetail.ForeColor = System.Drawing.Color.White;
+            this.lblPatientDetail.Location = new System.Drawing.Point(372, 377);
+            this.lblPatientDetail.Margin = new System.Windows.Forms.Padding(2);
+            this.lblPatientDetail.Name = "lblPatientDetail";
+            this.lblPatientDetail.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblPatientDetail.Size = new System.Drawing.Size(246, 37);
+            this.lblPatientDetail.TabIndex = 129;
+            this.lblPatientDetail.Text = "Edit Patient Details";
+            this.lblPatientDetail.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPatientDetail.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // guna2HtmlLabel1
+            // bunifuLabel1
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(610, 194);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(40, 15);
-            this.guna2HtmlLabel1.TabIndex = 127;
-            this.guna2HtmlLabel1.Text = "Auto Fill";
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuLabel1.Location = new System.Drawing.Point(63, 32);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(2);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(184, 37);
+            this.bunifuLabel1.TabIndex = 130;
+            this.bunifuLabel1.Text = "Appointments";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // btnAddAppointment
+            // 
+            this.btnAddAppointment.BorderRadius = 5;
+            this.btnAddAppointment.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(75)))));
+            this.btnAddAppointment.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnAddAppointment.ForeColor = System.Drawing.Color.White;
+            this.btnAddAppointment.Location = new System.Drawing.Point(668, 32);
+            this.btnAddAppointment.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddAppointment.Name = "btnAddAppointment";
+            this.btnAddAppointment.Size = new System.Drawing.Size(262, 37);
+            this.btnAddAppointment.TabIndex = 119;
+            this.btnAddAppointment.Text = "Add new Appointment";
             // 
             // dataGridViewTextBoxColumn26
             // 
@@ -716,64 +537,58 @@
             // 
             // dataGridViewTextBoxColumn27
             // 
-            this.dataGridViewTextBoxColumn27.HeaderText = "First Name";
+            this.dataGridViewTextBoxColumn27.HeaderText = "Full Name";
             this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
             // 
-            // LastName
-            // 
-            this.LastName.HeaderText = "Last Name";
-            this.LastName.Name = "LastName";
-            // 
             // dataGridViewTextBoxColumn28
             // 
-            this.dataGridViewTextBoxColumn28.HeaderText = "Contact Number";
+            this.dataGridViewTextBoxColumn28.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn28.HeaderText = "Phone Number";
             this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            this.dataGridViewTextBoxColumn28.Width = 126;
             // 
             // dataGridViewTextBoxColumn29
             // 
-            this.dataGridViewTextBoxColumn29.HeaderText = "Email";
+            this.dataGridViewTextBoxColumn29.HeaderText = "Gender";
             this.dataGridViewTextBoxColumn29.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
             // 
-            // AppointmentType
+            // emails
             // 
-            this.AppointmentType.HeaderText = "Appointment Type";
-            this.AppointmentType.Name = "AppointmentType";
+            this.emails.HeaderText = "E-Mail";
+            this.emails.Name = "emails";
             // 
-            // AppointmentDate
+            // date
             // 
-            this.AppointmentDate.HeaderText = "Appointment Date";
-            this.AppointmentDate.Name = "AppointmentDate";
+            this.date.HeaderText = "Date";
+            this.date.Name = "date";
             // 
             // dataGridViewTextBoxColumn30
             // 
-            this.dataGridViewTextBoxColumn30.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn30.HeaderText = "";
             this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
             // 
             // frmAppointments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(990, 790);
-            this.Controls.Add(this.guna2HtmlLabel1);
-            this.Controls.Add(this.bunifuCheckBox1);
-            this.Controls.Add(this.guna2GroupBox1);
-            this.Controls.Add(this.bunifuTextBox1);
-            this.Controls.Add(this.btnDeleteDoctor);
-            this.Controls.Add(this.btnEditDoctor);
-            this.Controls.Add(this.btnAddDoctor);
-            this.Controls.Add(this.grdDoctors);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.bunifuPanel1);
+            this.Controls.Add(this.bunifuLabel1);
+            this.Controls.Add(this.lblPatientDetail);
+            this.Controls.Add(this.btnCancelled);
+            this.Controls.Add(this.BtnPending);
+            this.Controls.Add(this.BtnApprove);
+            this.Controls.Add(this.BtnSearchAppointment);
+            this.Controls.Add(this.grdAppointment);
+            this.Controls.Add(this.btnAddAppointment);
+            this.Controls.Add(this.btnBack);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmAppointments";
             this.Text = "frmAppointments";
-            this.guna2GroupBox1.ResumeLayout(false);
-            this.guna2GroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdDoctors)).EndInit();
-            this.bunifuPanel1.ResumeLayout(false);
-            this.bunifuPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.grdAppointment)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -811,32 +626,22 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
-        private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
-        private Bunifu.UI.WinForms.BunifuRadioButton bunifuRadioButton4;
-        private Bunifu.UI.WinForms.BunifuRadioButton bunifuRadioButton2;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private Bunifu.UI.WinForms.BunifuRadioButton bunifuRadioButton3;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
-        private Bunifu.UI.WinForms.BunifuRadioButton bunifuRadioButton1;
-        private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
-        private Guna.UI2.WinForms.Guna2Button btnDeleteDoctor;
-        private Guna.UI2.WinForms.Guna2Button btnEditDoctor;
-        private Guna.UI2.WinForms.Guna2Button btnAddDoctor;
-        private Guna.UI2.WinForms.Guna2DataGridView grdDoctors;
-        private Guna.UI2.WinForms.Guna2Button btnCancel;
-        private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
+        private Bunifu.UI.WinForms.BunifuTextBox BtnSearchAppointment;
+        private Guna.UI2.WinForms.Guna2DataGridView grdAppointment;
+        private Guna.UI2.WinForms.Guna2Button btnBack;
+        private Guna.UI2.WinForms.Guna2Button BtnApprove;
+        private Guna.UI2.WinForms.Guna2Button BtnPending;
+        private Guna.UI2.WinForms.Guna2Button btnCancelled;
         private Bunifu.UI.WinForms.BunifuLabel lblEditDetails;
-        private Bunifu.UI.WinForms.BunifuCheckBox bunifuCheckBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Bunifu.UI.WinForms.BunifuLabel lblPatientDetail;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
+        private Guna.UI2.WinForms.Guna2Button btnAddAppointment;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
-        private System.Windows.Forms.DataGridViewTextBoxColumn LastName;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn29;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AppointmentType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AppointmentDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn emails;
+        private System.Windows.Forms.DataGridViewTextBoxColumn date;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
     }
 }
